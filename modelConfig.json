@@ -1,0 +1,6 @@
+{
+"tokenizer": "../../models/cdc_2009_att_text_tokenizer.pickle",
+"max_text_length" :"../../models/cdc_2009_att_text_max_length.pickle",
+"co_model": "../../models/cdc_2009_nn_att_text_embedding.H5",
+"rss_model" :"../../models/cdc_rss_2009_nn_att_text_embedding.H5"
+}

@@ -1,0 +1,93 @@
+950-953 [VYEAR] YEAR OF VISIT 
+1-2 [VMONTH] MONTH OF VISIT 
+3 [VDAYR] DAY OF WEEK OF VISIT
+4-6 [AGE] PATIENT AGE (IN YEARS; DERIVED FROM DATE OF BIRTH) 
+7-10 [ARRTIME] ARRIVAL TIME (military time)   
+11-14 [WAITTIME] WAITING TIME TO SEE MD/DO/PA/NP (minutes)
+15-18 [LOV] LENGTH OF VISIT (minutes) 
+19-20 [RESIDNCE] PATIENT RESIDENCE   
+21 [SEX] SEX   
+22-23 [ETHUN] ETHNICITY (UNIMPUTED) 
+24-25 [RACEUN] RACE (UNIMPUTED) (from PRF Q1.g)
+26-27 [ARREMS] Arrival by ambulance (from PRF Q1.h)
+38-41 [TEMPF] TEMPERATURE (from PRF Q2.a.1). 
+42-44 [PULSE] HEART RATE (from PRF Q2.a.2)
+45-47 [RESPR] RESPIRATORY RATE (from PRF Q2.a.3)
+48-50 [BPSYS] SYSTOLIC BLOOD PRESSURE (from Q2.a.4)
+51-53 [BPDIAS] DIASTOLIC BLOOD PRESSURE (from Q2.a.4)
+54-56 [POPCT] PULSE OXIMETRY (percent) (from Q2.a.5)
+57-58 [ONO2] ON OXYGEN (from Q2.a.6)
+59-60 [GCS] GLASGOW COMA SCALE
+61-62 [IMMEDR] IMMEDIACY WITH WHICH PATIENT SHOULD BE SEEN (Based on PRF Item Triage Level) 
+63-64 [PAIN] PAIN SCALE (from PRF Q2.c
+65-66 [SEEN72] HAS PATIENT BEEN SEEN IN THIS ED WITHIN THE LAST 72 HOURS? 
+71-75 [RFV1] REASON # 1
+76-80 [RFV2] REASON # 2
+81-85 [RFV3] REASON # 3
+86-87 [EPISODE] EPISODE OF CARE (from PRF Q4.b)
+88 [INJURY] IS THIS VISIT RELATED TO AN INJURY, POISONING, OR ADVERSE EFFECT OF MEDICAL TREATMENT?
+125 [CHF] Congestive heart failure
+128 [DIABETES] Diabetes
+130	[DIAGSCRN] Were any diagnostic/screening services ordered or provided at this visit?
+131	[CBC] CBC (Complete blood count) 
+132	[BUNCREAT] BUN/Creatinine 
+133	[CARDENZ] Cardiac enzymes 
+134	[ELECTROL] Electrolytes 
+135	[GLUCOSE] Glucose
+136	[LFT] Liver function tests
+137	[ABG] Arterial blood gases 
+138	[PTTINR] Prothrombin time/INR 
+139	[BLOODCX] Blood culture
+140	[BAC] Blood alcohol
+141	[OTHERBLD] Other blood test
+142	[CARDMON] Cardiac monitor 
+143	[EKG] EKG/ECG
+144	[HIVTEST] HIV test
+145	[FLUTEST] Influenza test 
+146	[PREGTEST] Pregnancy/HCG test 
+147	[TOXSCREN] Toxicology screen 
+148	[URINE] Urinalysis (UA) 
+149	[WOUNDCX] Wound culture 
+150	[OTHRTEST] Other test/service
+151	[ANYIMAGE] Any imaging
+152	[XRAY] X-ray
+153	[CATSCAN] Any CT scan
+154	[CTHEAD] CT scan - head
+155	[CTNHEAD] CT scan – other than head 
+156	[CTNUNK] CT scan – site not specified 
+157	[MRI] Any MRI
+158	[ULTRASND] Ultrasound
+159	[OTHIMAGE] Other imaging
+160-161	[TOTDIAG] TOTAL NUMBER OF DIAGNOSTIC/SCREENING SERVICES ORDERED OR PROVIDED
+162	[PROC] Were any procedures provided at this visit? 0 = No
+163	[IVFLUIDS] IV fluids
+164	[CAST] Cast
+165	[SPLINT] Splint or wrap
+166	[SUTURE] Suturing/Staples 
+167	[INCDRAIN] Incision & drainage (I&D) 
+168	[FBREM] Foreign body removal 
+169	[NEBUTHER] Nebulizer therapy 
+170	[BLADCATH] Bladder catheter 
+171	[PELVIC] Pelvic exam
+172	[CENTLINE] Central line
+173	[CPR] CPR
+174	[ENDOINT] Endotracheal intubation 
+175	[OTHPROC] Other procedure
+176-177	[TOTPROC] TOTAL NUMBER OF PROCEDURES PROVIDED
+252 [LEFTBTRI] Left before triage 
+253 [LEFTATRI] Left after triage 
+254 [LEFTAMA] Left AMA 
+255 [DOA] DOA 
+256 [DIEDED] Died in ED 
+258 [TRANPSYC] Transfer to psychiatric hospital 
+259 [TRANOTH] Transfer to other hospital 
+260 [ADMITHOS] Admit to this hospital 
+261 [OBSHOS] Admit to observation unit, then hospitalized 
+262 [OBSDIS] Admit to observation unit, then discharged 
+263 [OTHDISP] Other visit disposition
+264-265 [ADMIT] Admitted to:
+281-282 [HDSTAT] Hospital discharge status (1= alive, 2=dead)
+308 [BDATEFL] Was patient birth date imputed?
+312 [IMMEDRFL] Immediacy with which patient should be seen  imputed
+295 [REGION] GEOGRAPHIC REGION (Based on actual location of the hospital.)
+296 [MSA] METROPOLITAN/NON METROPOLITAN STATUS

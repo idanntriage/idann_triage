@@ -1,0 +1,2 @@
+{ "patient_info_url": "../sample_data/sample_patient_input.txt",
+"idannet_response_url": "../sample_data/sample_patient_result.txt"}

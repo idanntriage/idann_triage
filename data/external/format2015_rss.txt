@@ -1,0 +1,109 @@
+2613-2616 [VYEAR] SURVEY YEAR (2015)
+1-2 [VMONTH] MONTH OF VISIT 
+3 [VDAYR] DAY OF WEEK OF VISIT   
+16-18 [AGE] PATIENT AGE (IN YEARS; DERIVED FROM DATE OF VISIT AND DATE OF BIRTH)  
+4-7 [ARRTIME] ARRIVAL TIME (military time)   
+8-11 [WAITTIME] WAITING TIME TO SEE MD/DO/PA/NP (minutes)
+12-15 [LOV] LENGTH OF VISIT (minutes) 
+23-24 [RESIDNCE] PATIENT RESIDENCE   
+25 [SEX] SEX   
+26-27 [ETHUN] ETHNICITY (UNIMPUTED)    
+29-30 [RACEUN] RACE (UNIMPUTED)   
+33-34 [ARREMS] Arrival by ambulance   
+48-51 [TEMPF] TEMPERATURE   
+52-54 [PULSE] HEART RATE   
+55-57 [RESPR] RESPIRATORY RATE   
+58-60 [BPSYS] SYSTOLIC BLOOD PRESSURE   
+61-63 [BPDIAS] DIASTOLIC BLOOD PRESSURE
+64-66 [POPCT] PULSE OXIMETRY (percent)   
+67-68 [IMMEDR] IMMEDIACY WITH WHICH PATIENT SHOULD BE SEEN (Based on PRF Item Triage Level)   
+69-70 [PAIN] PAIN SCALE 
+71-72 [SEEN72] WAS PATIENT SEEN WITHIN THIS ED WITHIN THE LAST 72 HOURS AND DISCHARGED?
+73-77 [RFV1] REASON # 1 
+78-82 [RFV2] REASON # 2
+83-87 [RFV3] REASON # 3  
+88-92 [RFV4] REASON # 4 
+93-97 [RFV5] REASON # 5
+98-99 [EPISODE] EPISODE OF CARE
+100-101 [INJURY] IS THIS VISIT RELATED TO AN INJURY/TRAUMA, OVERDOSE/POISONING, OR ADVERSE EFFECT OF MEDICAL/SURGICAL TREATMENT? 
+216 [CHF] Congestive heart failure
+217 [CAD] Coronary artery disease (CAD), ischemic heart disease (IHD),
+219 [DIABTYP1] Diabetes mellitus (DM) – Type I 
+220 [DIABTYP2] Diabetes mellitus (DM) – Type II
+221 [DIABTYP0] Diabetes mellitus (DM) – Type unspecified 
+222 [ESRD] End-stage renal disease (ESRD) 
+234	[DIAGSCRN] Were diagnostic services ordered or provided at this visit?
+235	[ABG] Arterial blood gases
+236	[BAC] BAC (blood alcohol concentration) 
+237	[BMP] Basic metabolic panel
+238	[BLOODCX] Blood culture
+239	[BNP] BNP (Brain natriuretic peptide)
+240	[BUNCREAT] BUN (Blood urea nitrogen)/Creatinine 
+241	[CARDENZ] Cardiac enzymes
+242	[CBC] CBC (Complete blood count)
+243	[CMP] Comprehensive metabolic panel
+244	[DDIMER] D-dimer
+245	[ELECTROL] Electrolytes
+246	[GLUCOSE] Glucose
+247	[LACTATE] Lactate
+248	[LFT] Liver function tests
+249	[PTTINR] Prothrombin time/INR
+250	[OTHERBLD] Other blood test
+251	[CARDMON] Cardiac monitor 
+252	[EKG] EKG/ECG
+253	[HIVTEST] HIV test
+254	[FLUTEST] Influenza test 
+255	[PREGTEST] Pregnancy/HCG test 
+256	[TRTCX] Throat culture 
+257	[TOXSCREN] Toxicology screen 
+258	[URINE] Urinalysis (UA) 
+259	[URINECX] Urine culture
+260	[WOUNDCX] Wound culture 
+261	[OTHCX] Other culture 
+262	[OTHRTEST] Other test/service
+263	[ANYIMAGE] Any imaging
+264	[XRAY] X-ray
+265	[CATSCAN] CT scan (any)
+266-267	[CTCONTRAST] Was CT scan ordered/provided with intravenous (IV) contrast?
+268	[CTAB] CT scan – abdomen/pelvis
+269	[CTCHEST] CT scan – chest
+270	[CTHEAD] CT scan - head
+271	[CTOTHER] CT scan – other
+272	[CTUNK] CT scan – site not specified
+273	[MRI] MRI
+274-275	[MRICONTRAST] Was MRI ordered/provided with intravenous (IV) contrast?
+276	[ULTRASND] Ultrasound
+277	[OTHIMAGE] Other imaging
+278-279	[TOTDIAG] TOTAL NUMBER OF DIAGNOSTIC SERVICES ORDERED OR PROVIDED
+280	[PROC] Were procedures provided at this visit? 0 = No
+281	[BPAP] BPAP/CPAP
+282	[BLADCATH] Bladder catheter 
+283	[CASTSPLINT] Cast, splint, wrap 
+284	[CENTLINE] Central line
+285	[CPR] CPR
+286	[ENDOINT] Endotracheal intubation 
+287	[INCDRAIN] Incision & drainage (I&D) 
+288	[IVFLUIDS] IV fluids
+289	[LUMBAR] Lumbar puncture 
+290	[NEBUTHER] Nebulizer therapy 
+291	[PELVIC] Pelvic exam
+292	[SKINADH] Skin adhesives 
+293	[SUTURE] Suturing/staples 
+294	[OTHPROC] Other procedure
+295-296	[TOTPROC] TOTAL NUMBER OF PROCEDURES PROVIDED
+546 [LEFTBTRI] Left before triage 
+547 [LEFTATRI] Left after triage 
+548 [LEFTAMA] Left AMA 
+549 [DOA] DOA 
+550 [DIEDED] Died in ED 
+552 [TRANPSYC] Transfer to psychiatric hospital 
+553 [TRANOTH] Transfer to other hospital 
+554 [ADMITHOS] Admit to this hospital 
+555 [OBSHOS] Admit to observation unit, then hospitalized 
+556 [OBSDIS] Admit to observation unit, then discharged 
+557 [OTHDISP] Other visit disposition 
+558-559 [ADMIT] Admitted 
+625-626 [HDSTAT] Hospital discharge status
+636 [BDATEFL] Was patient birth date imputed?
+900 [REGION] GEOGRAPHIC REGION (Based on actual location of the hospital.)
+901 [MSA] METROPOLITAN/NON METROPOLITAN STATUS 

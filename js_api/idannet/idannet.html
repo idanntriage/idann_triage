@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!-- Author: Zenobia Liendo -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" 
+	 integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+	 
+	 <link rel="stylesheet" href="css/idannet.css">
+  </head>
+  <body>
+  
+  <div id="IDANNET" class="container">
+  
+ 
+     <div class="row top-buffer justify-content-center  ">	
+	    <!-- ESI legend -->	
+		<div class="col-md-4 text-center p-3  px-1">
+			<!-- color legend	
+		 <img src = "img/esi.jpg" width="149" height="194"  ></img>
+		 -->
+		
+ 
+	 	 <div class="row ">
+		 <div class=" esi-label col">
+		 Highest &nbsp;1 
+		 </div>
+		  <div class="col text-left p-0 ">
+			  <div class="legend esi_1 rounded-circle"> </div>
+		 </div>
+	 </div>
+	 
+	 	 <div class="row">
+		 <div class="col esi-label">
+		 2
+		 </div>
+		  <div class="col p-0">
+			  <div class="legend esi_2 rounded-circle"> </div>
+		 </div>
+	 </div>
+	 
+	 	 <div class="row">
+		 <div class="col esi-label">
+		3
+		 </div>
+		  <div class="col p-0">
+			  <div class="legend esi_3 rounded-circle"> </div>
+		 </div>
+	 </div>
+	 
+	 	 <div class="row">
+		 <div class="col esi-label">
+		4
+		 </div>
+		  <div class="col p-0">
+			  <div class="legend esi_4 rounded-circle"> </div>
+		 </div>
+	 </div>
+	 
+	 	 	 <div class="row">
+		 <div class="col esi-label">
+		Lowest &nbsp; 5
+		 </div>
+		  <div class="col p-0">
+			  <div class="legend esi_5 rounded-circle"> </div>
+		 </div>
+	 </div>
+	 
+	 
+			 
+		</div>
+	    <!-- ESI-->	
+		<div class="col-md-4 text-center align-middle p-4 px-2 ">
+		
+		    <div id = "esi-box"  class="scores w-80">	
+			 ESI <span id = "ESI" ></span>
+			</div>
+        </div>
+		
+
+		<!-- Probability -->	
+		<div class="col-md-4 text-center">	
+		 <h5 class="font-weight-bold">Critical Outcome Probability</h5>	 		  
+			<div id="co_prob" style="width:100%; height:180px;" ></div>	
+		</div>
+		 
+     </div>
+	 
+	 <div class="row ">	 
+	 	<!-- Patient Info -->	
+	    <div class="col-md-4">  
+		 <table id="patient_info" class="fancy" cellspacing="0">
+		  <thead>
+			<tr>
+			  <th scope="col">Patient Info</th>
+			  <th scope="col">Value</th>
+			</tr>
+		  </thead>
+		  <tbody>
+
+		  </tbody>
+		</table>
+        </div>
+		<!-- Attention Ranking -->	
+        <div class="col-md-8">      
+		 <div id="attention_rank" style="width:100%; height:620px;" ></div>
+        </div>  
+     </div>
+	 
+	 <!--
+	 <div class="row top-buffer">	 
+	    <div class="col-md-8">
+         <h5>Reason for Visit word heatmap</h5>
+		 
+        </div>  
+     </div>
+	  -->	
+  
+  
+
+  
+  
+     <!-- jsquery libs -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" 
+	 integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" 
+	 integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+	 
+	 <script src="https://code.highcharts.com/highcharts.js"></script>
+
+
+	
+
+	 
+    <!-- own jquery libs -->
+	<script src="js/idannet.js"></script>
+  </body>

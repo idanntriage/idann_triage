@@ -1,0 +1,45 @@
+1375-1378 [VYEAR] YEAR OF VISIT 
+1-2 [VMONTH] MONTH OF VISIT 
+3 [VDAYR] DAY OF WEEK OF VISIT
+16-18 [AGE] PATIENT AGE (IN YEARS; DERIVED FROM DATE OF BIRTH) 
+4-7 [ARRTIME] ARRIVAL TIME (military time)   
+8-11 [WAITTIME] WAITING TIME TO SEE MD/DO/PA/NP (minutes)
+12-15 [LOV] LENGTH OF VISIT (minutes) 
+23-24 [RESIDNCE] PATIENT RESIDENCE   
+25 [SEX] SEX   
+26-27 [ETHUN] ETHNICITY (UNIMPUTED) 
+29-30 [RACEUN] RACE (UNIMPUTED) (from PRF Q1.g)
+33-34 [ARREMS] Arrival by ambulance (from PRF Q1.h)
+46-49 [TEMPF] TEMPERATURE (from PRF Q2.a.1). 
+50-52 [PULSE] HEART RATE (from PRF Q2.a.2)
+53-55 [RESPR] RESPIRATORY RATE (from PRF Q2.a.3)
+56-58 [BPSYS] SYSTOLIC BLOOD PRESSURE (from Q2.a.4)
+59-61 [BPDIAS] DIASTOLIC BLOOD PRESSURE (from Q2.a.4)
+62-64 [POPCT] PULSE OXIMETRY (percent) (from Q2.a.5)
+65-66 [ONO2] ON OXYGEN
+67-68 [IMMEDR] IMMEDIACY WITH WHICH PATIENT SHOULD BE SEEN (Based on PRF Item Triage Level) 
+69-70 [PAIN] PAIN SCALE (from PRF Q2.c
+71-72 [SEEN72] HAS PATIENT BEEN SEEN IN THIS ED WITHIN THE LAST 72 HOURS? 
+73-77 [RFV1] REASON # 1
+78-82 [RFV2] REASON # 2
+83-87 [RFV3] REASON # 3
+88-89 [EPISODE] EPISODE OF CARE (from PRF Q4.b)
+90-91 [INJURY] IS THIS VISIT RELATED TO AN INJURY, POISONING, OR ADVERSE EFFECT OF MEDICAL TREATMENT?
+175 [CHF] Congestive heart failure
+177 [DIABETES] Diabetes
+178 [CAD]  MIH XHistory of myocardial infarction (MI)
+345 [LEFTBTRI] Left before triage 
+346 [LEFTATRI] Left after triage 
+347 [LEFTAMA] Left AMA 
+348 [DOA] DOA 
+349 [DIEDED] Died in ED 
+351 [TRANPSYC] Transfer to psychiatric hospital 
+352 [TRANOTH] Transfer to other hospital 
+353 [ADMITHOS] Admit to this hospital 
+354 [OBSHOS] Admit to observation unit, then hospitalized 
+355 [OBSDIS] Admit to observation unit, then discharged 
+356 [OTHDISP] Other visit disposition
+357-358 [ADMIT] Admitted to:
+402-403 [HDSTAT] Hospital discharge status (1= alive, 2=dead)
+413 [BDATEFL] Was patient birth date imputed?
+689 [REGION] GEOGRAPHIC REGION (Based on actual location of the hospital.)

@@ -1,0 +1,8 @@
+{
+"dataDirectory": "../../data/",
+"inputFormatDirectory" :"external/",
+"inputDataDirectory": "raw/",
+"interimDirectory" :"interim/",
+"processedDirectory" : "processed/",
+"resultDirectory":"result/" 
+}

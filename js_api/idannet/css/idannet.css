@@ -1,0 +1,105 @@
+
+		
+		.top-buffer { margin-top:20px; }
+		
+		.scores {
+		    font-size: 45px;
+            font-weight: bold;
+			border-radius: 25px;
+			//background: orange;
+			padding-top: 30px;
+			padding-right: 20px;
+			padding-bottom: 20px;
+			padding-left: 20px;
+			//width: 310px;
+			height: 135px;
+			color: #353535;
+		}
+		
+		.legend {
+			width: 30px;
+			height: 30px;
+			padding: 0px, 1px, 0px, 1px;
+
+		}
+		
+		.esi_1{
+		  background: red;
+		}
+		
+		.esi_2{
+		  background: orange;
+		}
+		
+		.esi_3{
+		  background: #f4ee2c;
+		}
+		
+		.esi_4{
+		  background: #d5f279;
+		}
+		
+		.esi_5{
+		  background: #6cc464;
+		}
+		
+		.align_center {
+		  display: flex;
+		  justify-content: center;
+		  align-items: center;
+		}
+		
+// Tables  style
+// -----------------------------------------------------------
+.fancy{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.fancy table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-spacing:0px;
+  border-left-width: 1px;
+  border-top-width: 0px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-style: solid;
+  border-color:#999999;
+}
+.fancy tr:nth-child(even) {
+    background-color: #edeeef;
+}
+
+.fancy td, .fancy th{
+  padding: 3px 10px;
+  border-left-width: 0px;
+  border-top-width: 0px;
+  border-right-width: 1px;
+  border-bottom-width: 0px;
+  border-style: solid;
+  border-color:#999999;
+  font-size: 12px;
+}
+.fancy th {
+  background: gray;
+  color: white 
+}
+
+h2, h3 {
+  color: #334766;
+  text-align: center;
+}
+
+//   attention levels
+.highcharts-title {
+    fill: #434348;
+    font-weight: bold;
+    letter-spacing: 0.3em;
+    font-size: 3em;
+	font-family: Arial,Roboto;
+}
+
+.esi-label{
+  padding: 0px, 1px, 0px, 1px ;
+  text-align: right;
+  
+}
