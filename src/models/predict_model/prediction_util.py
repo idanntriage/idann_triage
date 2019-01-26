@@ -4,7 +4,7 @@ from keras.models import  Model
 from keras import layers
 import numpy as np
 import pandas as pd
-sys.path.append("../modeling/modules/feature_engineering")
+sys.path.append("../../src/features")
 import rfv_text_lookup
 
 

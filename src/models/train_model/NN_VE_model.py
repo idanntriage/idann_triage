@@ -86,6 +86,8 @@ def create_att_model (l2=0.001, n_units =100 , nh=30,  n_layers =2,
         rfv_data_input = Input(shape=(text_array_length,),name="rfv_text_data_input")
 
     #additional inputs
+    # todo: implement a metho that reshapes a set of variables, to avoid that many lines of code with hardcode
+    #        name of variables 
     Hypothermia_input = Input(shape=(1,)) 
     Hyperthermia_input = Input(shape=(1,)) 
     Bradycardia_input = Input(shape=(1,)) 

@@ -15,7 +15,7 @@ import prediction_util
 sys.path.append("../../src/features")
 import build_features
 import RFV_text_vectorizing
-sys.path.append("../../src/models/predict_model")
+sys.path.append("../../src/models/train_model")
 import NN_VE_model
 
 def predict_and_get_att(modelConfig,thresholdsConfig,  att_top, sample_record):
