@@ -42,7 +42,7 @@ We are also providing unix scripts to execute the whole pipeline automatically.
 ## ESI Prediction API   
 |N. | Type | Task and its Notebook|  files|  
 |---|---|---|---| 
-|10|Prediction | Example of how to predict for one record (it includes call to py method that will be used in the cloud api-service) </br> Notebook: [ATTNN_predict_for_one_record.ipynb](notebooks/prediction/ATTNN_predict_for_one_record.ipynb)    | **Input:** data/processed/ ED_TOTAL_2010_2010.csv </br> **Output:**  |
+|10|Prediction | Example of how to predict for one record (it includes call to py method that is used in the cloud api-service) </br> Notebook: [ATTNN_predict_for_one_record.ipynb](notebooks/prediction/ATTNN_predict_for_one_record.ipynb)    | **Input:** data/processed/ ED_TOTAL_2010_2010.csv </br> **Output:**  |
 |11|API Service |  call to REST API example.</br> Notebook: [API_Service_Call_example.ipynb](notebooks/api_service/API_Service_Call_example.ipynb)   | **Input:**  </br> **Output:**   | 
 
 
