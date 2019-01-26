@@ -1,7 +1,7 @@
 import numpy as np
 import sys 
 sys.path.append("../../src/models/predict_model")
-import predict_esi_rss
+import predict_esi
 
 def countX(lst, x):
     return lst.count(x)
@@ -15,14 +15,6 @@ def get_esi_counts(ESI, new_esi):
         new_counts.append(countX(new_esi, c))
     return old_counts, new_counts
 
-def get_new_esi(rss_pred,co_pred,RSS_threshold,ESI1, ESI2):
-    rss_max = [np.argmax(r) for r in rss_pred]
-    rss_comp = np.column_stack((rss_max,rss_pred))
-    rss_p = [predict_esi_rss.predict_rss(rmax,r0,r1,r2, RSS_threshold) for rmax,r0,r1,r2 in rss_comp]
-    new_esi = []
-    for i in range(len(co_pred)):
-        new_esi.append(predict_esi_rss.predict_ESI(co_pred[i],rss_p[i],ESI1, ESI2))
-    return new_esi
 
 def show_tp_fp_rates( cdc_info):
     #Get baseline true positive rate

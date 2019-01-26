@@ -2,12 +2,7 @@ import numpy as np
 from collections import Counter 
 import pandas as pd
 
-def predict_rss(rmax,r0,r1,r2, RSS_threshold):       
-    if r1 >RSS_threshold:# and rmax==0:
-        rss = 1
-    else:
-        rss = rmax
-    return rss
+
 
 def predict_ESI(c,r,ESI1, ESI2):
 
@@ -23,6 +18,29 @@ def predict_ESI(c,r,ESI1, ESI2):
         else:
             ESI = 3
     return ESI
+
+def get_new_esi(rss_pred,co_pred,RSS_threshold,ESI1, ESI2):
+    rss_p = predict_resources (rss_pred, RSS_threshold)
+    new_esi = []
+    for i in range(len(co_pred)):
+        new_esi.append(predict_ESI(co_pred[i],rss_p[i],ESI1, ESI2))
+    return new_esi
+
+def predict_resources (rss_pred, RSS_threshold):
+    rss_max = [np.argmax(r) for r in rss_pred]
+    rss_comp = np.column_stack((rss_max,rss_pred))
+    rss_p = [predict_rss(rmax,r0,r1,r2, RSS_threshold) for rmax,r0,r1,r2 in rss_comp]
+    return rss_p 
+    
+
+def predict_rss(rmax,r0,r1,r2, RSS_threshold):       
+    if r1 >RSS_threshold:# and rmax==0:
+        rss = 1
+    else:
+        rss = rmax
+    return rss
+
+
 
 def print_distribution (co_pred,co_type, ESI,  threshold_top_10_perc ):
     #Define ESI 1 and 2, and examine critical outcomes within that group

@@ -64,5 +64,12 @@ def consolidateAndApplyExclusion(years, fileConfig):
     cdc_files_appended = cdc_files_appended.fillna(-9)
     cdc_files_appended.to_csv(output_filename, index=False)
     
+
+def filter_out_records_na(cdc_file):
+    cdc_filtered = cdc_file[(cdc_file.TEMPF != -9 )| (cdc_file.PULSE != -9)|(cdc_file.RESPR != -9) | \
+                           (cdc_file.BPSYS != -9) |(cdc_file.BPDIAS != -9) | (cdc_file.POPCT != -9) | \
+                           (cdc_file.AGE != -9) | (cdc_file.SEX != -9)]
+    return cdc_filtered 
+    
     
     
