@@ -3,7 +3,7 @@
 [IDANN Triage](https://zliendo.github.io/idann_home.html) utilizes interpretable deep neural networks with attention to predict critical patient outcomes and resources, aiding emergency departments with patient prioritization.
 
 This repository contains the code refactored from the original repository used during MIDS w210 capstone course:   
-[MIDS-Capstone-EHR-ED-Care](https://github.com/r-hopper/MIDS-Capstone-EHR-ED-Care). The code was re-factored for easy reading and replication, keeping model's architecture and performance levels.   
+[MIDS-Capstone-EHR-ED-Care](https://github.com/r-hopper/MIDS-Capstone-EHR-ED-Care). The code was re-factored for easy reading and replication, keeping model's architecture and performance levels (we are creating other project to evolve the initial model).   
 
 The table below lists the notebooks that can be executed in the specified order to replicate results.   
 
