@@ -2,6 +2,8 @@ import rfv_text_lookup
 import RFV_text_vectorizing
 import pandas as pd
 
+# Based on Roseanna's code (refactored)
+
 def get_RFV_vector(i):
     if int(i) != -9 :
         myList = list(str(int(i)))
