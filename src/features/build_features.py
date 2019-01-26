@@ -255,6 +255,7 @@ def get_arrival_mode_indicators(cdc_input,predictors):
 # calculate number of resources 
 # --------------------------------------------------------
 #Calculte RSS required
+# Based on Manuel's code (refactored)
 def get_resources (x):
     #rss = None
     rss = 0
