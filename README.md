@@ -39,11 +39,18 @@ We are also providing unix scripts to execute the whole pipeline automatically.
 |8|Prediction | prediction with 2010 for evaluation.</br> Notebook: [Batch_Prediction_2010.ipynb](notebooks/test_evaluation/Batch_Prediction_2010.ipynb)    | **Input:** data/processed/ ED_TOTAL_2010_2010.csv </br> **Output:** data/result/Predictions_2010_DataForThresholds.json | 
 |9 |Results Viz | Several Visualizations comparing new ESI with original ESI and its performance improvement .</br> Notebook: [ESI_vs_pred_ESI_Viz.ipynb](notebooks/test_evaluation/ESI_vs_pred_ESI_Viz.ipynb)  , test_evaluation/ESI_sankeys_viz.ipynb    | **Input:**  data/result/ thresholds.json, </br>data/result/Predictions_2010_DataForThresholds.json</br>  **Output:** viz images and report |
 
+## Prediction and pulling attention relative weights
+
+|N. | Type | Task and its Notebook|  files|  
+|---|---|---|---| 
+|10|Prediction | Example of predicting for one record and pulling attention relative weights from the model that had just done the prediction </br> Notebook: [CO_ATT_prediction_interpretability_sample.ipynb](notebooks/prediction/CO_ATT_prediction_interpretability_sample.ipynb)    | **Input:** data/processed/ ED_TOTAL_2010_2010.csv </br> **Output:**  |
+|11|Prediction | Example of how to predict for one record (it includes call to py method that is used in the cloud api-service) </br> Notebook: [ATTNN_predict_for_one_record.ipynb](notebooks/prediction/ATTNN_predict_for_one_record.ipynb)    | **Input:** data/processed/ ED_TOTAL_2010_2010.csv </br> **Output:**  |
+
+
 ## ESI Prediction API   
 |N. | Type | Task and its Notebook|  files|  
 |---|---|---|---| 
-|10|Prediction | Example of how to predict for one record (it includes call to py method that is used in the cloud api-service) </br> Notebook: [ATTNN_predict_for_one_record.ipynb](notebooks/prediction/ATTNN_predict_for_one_record.ipynb)    | **Input:** data/processed/ ED_TOTAL_2010_2010.csv </br> **Output:**  |
-|11|API Service |  call to REST API example.</br> Notebook: [API_Service_Call_example.ipynb](notebooks/api_service/API_Service_Call_example.ipynb)   | **Input:**  </br> **Output:**   | 
+|12|API Service |  call to REST API example.</br> Notebook: [API_Service_Call_example.ipynb](notebooks/api_service/API_Service_Call_example.ipynb)   | **Input:**  </br> **Output:**   | 
 
 
 Project structure based on:
