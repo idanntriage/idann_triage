@@ -1,4 +1,6 @@
 
+# Based on Roseanna's code (refactored)
+
 def  get_age_normalize(cdc_input, predictors):    
     predictors['AGE'] = cdc_input['AGE']
     def normalize_field(field):
