@@ -1,4 +1,5 @@
 # Code based on /modeling/cdc_model_processing.py
+# Author: Roseanna Hopper
 
 #Recoding all RFV codes to text
 def RFVtext(i):
