@@ -1,4 +1,6 @@
 # Code based on /modeling/cdc_model_processing.py
+# Based on Roseanna's code (refactored)
+
 import pandas as pd
 import numpy as np
 
