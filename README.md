@@ -6,7 +6,6 @@ This repository contains the code refactored from the original repository used d
 [MIDS-Capstone-EHR-ED-Care](https://github.com/r-hopper/MIDS-Capstone-EHR-ED-Care). The code was re-factored for easy reading and replication, keeping model's architecture and performance levels.   
 
 The table below lists the notebooks that can be executed in the specified order to replicate results.   
-We are also providing unix scripts to execute the whole pipeline automatically.
 
 ## Pre-Processing and Exploratory Data Analysis (EDA)
 
